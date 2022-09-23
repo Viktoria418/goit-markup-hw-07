@@ -609,18 +609,18 @@ body {
   margin-bottom: 16px;
 }
 
-.section-our-clients {
+.clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
-
-.clients {
-  fill: currentColor;
+.clients__item {
+  fill: #afb1b8;
+  width: 170px;
+  height: 92px;
 }
-
-.clients-link {
+.clients__link {
   color: #afb1b8;
   width: 100%;
   height: 100%;
@@ -631,17 +631,12 @@ body {
   justify-content: center;
   transition: color var(--transition-animation), border-color var(--transition-animation);
 }
-
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover, .clients__link:focus {
   color: var(--color-accent);
   border-color: var(--color-accent);
 }
-
-.clients-company {
-  fill: #afb1b8;
-  width: 170px;
-  height: 92px;
+.clients__icon {
+  fill: currentColor;
 }
 
 .portfolio-btn {
